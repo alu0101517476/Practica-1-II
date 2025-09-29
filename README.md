@@ -19,7 +19,7 @@ Email: alu0101517476@ull.edu.es
 ----
 
 Descripción del trabajo realizado
-1. Añadir objetos 3D básicos con su etiqueta que los identifique
+**1. Añadir objetos 3D básicos con su etiqueta que los identifique**
 He añadido los siguientes objetos:
 - 3 Cubos
 - 2 Capsulas
@@ -28,12 +28,12 @@ En la siguiente imagen se demuestra la existencia de los objetos 3D básicos que
 
 ![objetos 3D](Img/Objetos%203D.png)
 
-2. Incluir en el el paquete Starter Assets.
+**2. Incluir en el el paquete Starter Assets.**
 En la siguiente imagen se puede ver que en la ventana de "My assets" están los starter assets de Primera y Tercera persona
 
 ![Inclusion Starter Assets](Img/Starter%20assets.png)
 
-3. Incluir un objeto libre de la Asset Store que no sea de los Starter Assets.
+**3. Incluir un objeto libre de la Asset Store que no sea de los Starter Assets.**
 En el proyecto he incluido varios objetos que no son de los Starter Assets. Estos objetos son:
 - Multiples vallas
 - 2 edificios
@@ -46,12 +46,12 @@ Los siguientes objetos seleccionados son los que no son Starter Assets:
 
 ![No starter assets](Img/No%20Starter%20assets.png)
 
-4. Crea un terreno
+**4. Crea un terreno**
 He creado un terreno pequeño y mediante el pincel de "paint texture" le he dado al terreno textura de arena. En la imagen se ve como el objeto seleccionado es el propio terreno que he comentado previamente.
 
 ![Terreno](Img/Terreno.png)
 
-5. Cada objeto debe tener una etiqueta que lo identifique.
+**5. Cada objeto debe tener una etiqueta que lo identifique.**
 Todos los objetos tienen asociada una etiqueta. He optado por agrupar a los objetos por una etiqueta según al grupo de objetos que pertenezca. La agrupación que he escogido es la siguiente:
 - Los objetos que no son del paquete Starter Assets: Etiqueta "No starter asset"
 - Los cubos: Etiqueta "Cube"
@@ -72,12 +72,12 @@ En las siguientes imágenes se demuestra la existencia de las etiquetas asignada
 
 ![Tag Starter Asset](Img/tag%20Starter%20Asset.png)
 
-6. Utilizar prefabs de Starter Asset FPS o Third Person.
+**6. Utilizar prefabs de Starter Asset FPS o Third Person.**
 En mi caso utilice un prefab del Third Person, que es el siguiente modelo humanoide:
 
 ![Humanoide](Img/Third%20person.png)
 
-7. Agregar un script que escriba en la consola la etiqueta y posición de cada objeto que hayas utilizado. 
+**7. Agregar un script que escriba en la consola la etiqueta y posición de cada objeto que hayas utilizado.**
 Para hacer esto he creado un script de C# con el siguiente código:
 ```C#
 using UnityEngine;
