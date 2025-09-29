@@ -75,7 +75,7 @@ En las siguientes imágenes se demuestra la existencia de las etiquetas asignada
 
 ![Tag Logger](Img/Tag%20logger.png)
 
-![Tag No starter asset](Img/No%20Starter%20assets.png)
+![Tag No starter asset](Img/Tag%20No%20starter%20asset.png)
 
 ![Tag Starter Asset](Img/tag%20Starter%20Asset.png)
 
