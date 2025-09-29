@@ -44,5 +44,50 @@ Todos los objetos tienen asociada una etiqueta. He optado por agrupar a los obje
 - Las cápsulas: Etiqueta "Capsule"
 - El terreno: Etiqueta "Terrain"
 - El modelo humanoide: Etiqueta "Starter Asset"
+- Empty object que está asociado al script: Etiqueta "Logger"
 
 En las siguientes imágenes se demuestra la existencia de las etiquetas asignadas a los objetos:
+![Tag Capsule](Img/Tag%20Capsule.png)
+
+![Tag Cube](Img/Tag%20Cube.png)
+
+![Tag Logger](Img/Tag%20logger.png)
+
+![Tag No starter asset](Img/No%20Starter%20assets.png)
+
+![Tag Starter Asset](Img/tag%20Starter%20Asset.png)
+
+6. Utilizar prefabs de Starter Asset FPS o Third Person.
+En mi caso utilice un prefab del Third Person, que es el siguiente modelo humanoide:
+![Humanoide](Img/Third%20person.png)
+
+7. Agregar un script que escriba en la consola la etiqueta y posición de cada objeto que hayas utilizado. 
+Para hacer esto he creado un script de C# con el siguiente código:
+```C#
+using UnityEngine;
+
+public class ObjectLogger : MonoBehaviour
+{
+    void Start()
+    {
+        // Obtiene todos los objetos activos de la escena
+        GameObject[] allObjects = FindObjectsOfType<GameObject>();
+
+        foreach (GameObject obj in allObjects)
+        {
+            // Solo si está activo en la jerarquía y NO está "Untagged"
+            if (obj.activeInHierarchy && obj.tag != "Untagged")
+            {
+                // Muestra en la consola el nombre, tag y posición
+                Debug.Log("Objeto: " + obj.name +
+                          " | Tag: " + obj.tag +
+                          " | Posición: " + obj.transform.position);
+            }
+        }
+    }
+}
+```
+
+Después de eso, cree un Empty object y le vinculé el script. A continuación se puede encontrar el GIF animado que demuestra el funcionamiento del Script:
+![GIF](Img/Funcionamiento.gif)
+
