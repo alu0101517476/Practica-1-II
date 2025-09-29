@@ -4,17 +4,17 @@ Email: alu0101517476@ull.edu.es
 
 ----
 
-Índice
 # Índice
 
 - [Descripción del trabajo realizado](#descripción-del-trabajo-realizado)
-  1. [Añadir objetos 3D básicos con su etiqueta que los identifique](#1-añadir-objetos-3d-básicos-con-su-etiqueta-que-los-identifique)
-  2. [Incluir en el paquete Starter Assets](#2-incluir-en-el-paquete-starter-assets)
-  3. [Incluir un objeto libre de la Asset Store que no sea de los Starter Assets](#3-incluir-un-objeto-libre-de-la-asset-store-que-no-sea-de-los-starter-assets)
-  4. [Crea un terreno](#4-crea-un-terreno)
-  5. [Cada objeto debe tener una etiqueta que lo identifique](#5-cada-objeto-debe-tener-una-etiqueta-que-lo-identifique)
-  6. [Utilizar prefabs de Starter Asset FPS o Third Person](#6-utilizar-prefabs-de-starter-asset-fps-o-third-person)
-  7. [Agregar un script que escriba en la consola la etiqueta y posición de cada objeto utilizado](#7-agregar-un-script-que-escriba-en-la-consola-la-etiqueta-y-posición-de-cada-objeto-utilizado)
+  - [1. Añadir objetos 3D básicos con su etiqueta que los identifique](#1-añadir-objetos-3d-básicos-con-su-etiqueta-que-los-identifique)
+  - [2. Incluir en el paquete Starter Assets](#2-incluir-en-el-paquete-starter-assets)
+  - [3. Incluir un objeto libre de la Asset Store que no sea de los Starter Assets](#3-incluir-un-objeto-libre-de-la-asset-store-que-no-sea-de-los-starter-assets)
+  - [4. Crea un terreno](#4-crea-un-terreno)
+  - [5. Cada objeto debe tener una etiqueta que lo identifique](#5-cada-objeto-debe-tener-una-etiqueta-que-lo-identifique)
+  - [6. Utilizar prefabs de Starter Asset FPS o Third Person](#6-utilizar-prefabs-de-starter-asset-fps-o-third-person)
+  - [7. Agregar un script que escriba en la consola la etiqueta y posición de cada objeto utilizado](#7-agregar-un-script-que-escriba-en-la-consola-la-etiqueta-y-posición-de-cada-objeto-utilizado)
+
 
 ----
 
